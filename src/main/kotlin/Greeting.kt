@@ -9,8 +9,10 @@ fun main(args: Array<String>) {
     val greeting = Greeting("Hello", "Fuck off")
     val greeting2: String = greeting.greet2()
     val greeting1: String = greeting.greet1()
+
     println("Hiiiii...$greeting1")
     println("Now $greeting2")
+    
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
